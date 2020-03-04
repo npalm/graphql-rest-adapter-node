@@ -8,9 +8,7 @@ Project contains small show cases how to create an adapter to convert a traditio
 This project is build on top of a Java based GraphQL demo that exposes also a REST interface. This examples requires running this other demo first.
 
 ```
-git clone https://github.com/npalm/graphql-java-demo.git
-git checkout rest-service
-cd graphql-java-demo && ./gradlew bootRun
+docker run -d --name graphql-java-demo --rm -p 8080:8080 npalm/graphql-java-demo:rest-service
 ```
 
 Next you can choose either `apollo-link-rest` or `rest-axios` and start the server
