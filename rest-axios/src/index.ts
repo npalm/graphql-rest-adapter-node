@@ -4,7 +4,7 @@ import { TalkResolver } from './resolvers/talkResolver'
 
 const main = async () => {
   const server = await new ApolloServer({ typeDefs: RootSchema, resolvers: TalkResolver }).listen();
-  console.log(`Server started at: ${server.url}`);
+  console.log(`🏄🏽‍♀️ Server started at: ${server.url} 🏄🏽‍♀️`);
 };
 
 main();
