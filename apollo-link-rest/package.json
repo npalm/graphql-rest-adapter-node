@@ -21,7 +21,7 @@
     "graphql": "^14.6.0",
     "graphql-anywhere": "^4.2.6",
     "isomorphic-fetch": "^2.2.1",
-    "qs": "^6.9.1"
+    "qs": "^6.9.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.2",
